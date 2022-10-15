@@ -1,0 +1,8 @@
+.about__image_lower {
+    bottom: 0px;
+    right: 0px;
+    width: 405px;
+    height: 422px;
+    
+    object-fit: cover;
+}

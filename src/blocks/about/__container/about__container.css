@@ -1,0 +1,7 @@
+.about__container {
+    max-width: 540px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}

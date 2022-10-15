@@ -1,0 +1,5 @@
+.about__achievements-container {
+    display: flex;
+    max-width: 540px;
+    justify-content: space-between;
+}

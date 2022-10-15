@@ -1,0 +1,10 @@
+.main__image {
+    position: absolute;
+    width: 850px;
+    height: 770px;
+    /* background-image: url('../../../images/family-moving-using-boxes_1157-35481.jpeg'); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    object-fit:cover;
+}

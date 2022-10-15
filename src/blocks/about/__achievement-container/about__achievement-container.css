@@ -1,0 +1,9 @@
+.about__achievement-container {
+    max-width: 227px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70px 137px;
+    grid-template-rows: 30px 30px;
+    row-gap: 1px;
+    column-gap: 10px;
+}
