@@ -8,3 +8,27 @@
     margin: 0 auto;
     height: 50px;
 }
+
+@media (max-width: 1050px){
+    .header {
+        max-width: 900px;
+    }
+} 
+
+@media (max-width: 1050px){
+    .header {
+        max-width: 900px;
+    }
+} 
+
+@media (max-width: 920px){
+    .header {
+        max-width: 700px;
+    }
+} 
+
+@media (max-width: 730px){
+    .header {
+        max-width: 500px;
+    }
+} 

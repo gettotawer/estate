@@ -1,3 +1,17 @@
 .main__image-container {
     position: relative;
+    width: 100%;
+    /* width: 850px; */
+    height: 650px;
+    background-image: url('../../../images/kochurova.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+@media (max-width: 730px){
+    .main__image-container {
+        display: none;
+    }
 }

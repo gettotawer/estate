@@ -1,14 +1,14 @@
-import img from "../images/family-moving-using-boxes_1157-35481.jpeg"
+import img from "../images/kochurova.jpg"
 function Main(props){
     return(
         <section className="main">
             <div className="main__container">
-                <h1 className="main__title">We Help You To Find Best Propery For Living</h1>
-                <p className="main__paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour</p>
-                <button className="main__button">Find Property</button>
+                <h1 className="main__title">Мы помогаем мечтам сбываться!</h1>
+                <p className="main__paragraph">Для тех, кто хочет быстро продать или купить квартиру по лучшей цене в Арангельске.</p>
+                <button className="main__button">Получить консультацию.</button>
             </div>
             <div className="main__image-container">
-                <img className="main__image" src={img} alt="Довольная семья."></img>
+                {/* <img className="main__image" src={img} alt="Кочурова Наталья"></img> */}
             </div>
         </section>
     );

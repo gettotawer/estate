@@ -1,6 +1,8 @@
 .main__title {
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 80px;
+    margin: 0;
 }
