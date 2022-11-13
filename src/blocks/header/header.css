@@ -9,3 +9,11 @@
     height: 50px;
     padding-top: 24px;
 }
+
+@media(max-width: 600px){
+    .header {
+        height: 5vh;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+}

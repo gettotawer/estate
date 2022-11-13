@@ -22,3 +22,9 @@
 .main__button:hover {
     background-color: rgba(9, 132, 227, 0.75);
 }
+
+@media(max-width: 600px){
+    .main__button{
+        width: 100%;
+    }
+}

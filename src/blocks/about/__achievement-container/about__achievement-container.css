@@ -1,10 +1,8 @@
 .about__achievement-container {
-    max-width: 227px;
-    width: 100%;
     display: grid;
-    grid-template-columns: 50px 137px;
-    grid-template-rows: 20px 20px;
+    grid-template-columns: 40px 137px;
+    grid-template-rows: 15px 15px;
     row-gap: 10px;
-    column-gap: 10px;
-    padding-bottom: 10px;
+    column-gap: 5px;
+    padding-bottom: 20px;
 }
