@@ -1,23 +1,12 @@
 .team {
     display: flex;
     flex-direction: column;
+    width: 90%;
     max-width: 1024px;
     padding-top: 80px;
     padding-bottom: 80px;
     /* justify-content: center; */
     margin: 0 auto;
-}
-
-@media (max-width: 570px){
-    .team {
-        max-width: 460px;
-    }
-}
-
-@media (max-width: 460px){
-    .team {
-        max-width: 360px;
-    }
 }
 
 .team__title {

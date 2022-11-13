@@ -1,7 +1,15 @@
 .about {
     padding-top: 50px;
-    max-width: 1024;
-    width: 100%;
+    max-width: 1024px;
+    width: 90%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media(max-width: 730px){
+    .about {
+        flex-direction: column-reverse;
+    }
 }

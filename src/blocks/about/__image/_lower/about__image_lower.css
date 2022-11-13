@@ -1,8 +1,20 @@
 .about__image_lower {
     bottom: 0px;
     right: 0px;
-    width: 405px;
-    height: 422px;
-    
+    width: 90%;
+    height: 55%;
     object-fit: cover;
+}
+
+@media(max-width: 900px){
+    .about__image_lower {
+        height: 50%;
+    }
+}
+
+@media(max-width: 730px){
+    .about__image_lower {
+        width: 60%;
+        height: 60%;
+    }
 }

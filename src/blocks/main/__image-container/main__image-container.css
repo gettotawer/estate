@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     /* width: 850px; */
-    height: 650px;
+    height: 600px;
     background-image: url('../../../images/kochurova.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -12,6 +12,26 @@
 
 @media (max-width: 730px){
     .main__image-container {
-        display: none;
+        /* background-image: linear-gradient(to right, rgba(240, 239, 243, 0.85) 20%, rgba(255, 255, 255, 0) 50%), url('../../../images/kochurova.jpg');
+        position: absolute; 
+        right: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 50%;
+        height: 400px; */
+        background-size: 150%;
+        /* display: none; */
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px){
+    .main__image-container {
+        /* position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 40%;
+        background-size: 200%;
+        height: 40vw; */
     }
 }

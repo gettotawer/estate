@@ -7,7 +7,7 @@ function Header(props){
             <nav className='header__container'>
                 <a className='header__link' href="#about">О нас</a>
                 <a className='header__link' href="#team">Наша команда</a>
-                <a className='header__link' href="https://dev-gang.ru/article/programmnaja-navigacija-s-ispolzovaniem-react-router-lzmorueggt/">Связаться с нами</a>
+                <a className='header__link' href="tel:+7-921-241-15-06">Связаться с нами</a>
             </nav>
         </header>
     );

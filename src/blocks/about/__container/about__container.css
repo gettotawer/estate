@@ -1,7 +1,20 @@
 .about__container {
-    max-width: 540px;
+    /* max-width: 540px; */
     padding-left: 60px;
     display: flex;
     flex-direction: column;
-    
+}
+
+@media (max-width: 900px){
+    .about__container {
+        padding-left: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 730px){
+    .about__container {
+        padding-left: 0px;
+        width: 100%;
+    }
 }

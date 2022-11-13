@@ -2,16 +2,14 @@
     padding-top: 20px;
     display: flex;
     max-width: 1024px;
-    /* height: 770px; */
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     justify-content: center;
-    /* overflow: hidden; */
-    /* background-color: #F9FCFF; */
+    position: relative;
 }
 
-@media (max-width: 1050px){
-    .main {
-        max-width: 900px;
+@media(max-width: 600px){
+    .main{
+        flex-direction: column;
     }
-} 
+}
