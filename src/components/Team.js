@@ -4,8 +4,8 @@ import kochurova_portrait from "../images/kochurova_portrait.jpg"
 import kabanova_portrait from "../images/kabanova_portrait.jpg"
 import erofeevskaya_portrait from "../images/erofeevskaya_portrait.jpg"
 import Shimkovich_portrait from "../images/Shimkovich_portrait.jpg"
-// import kochurova_portrait from "../images/kochurova_portrait.jpg"
-// import kochurova_portrait from "../images/kochurova_portrait.jpg"
+import tarnoruckaya_portrait from "../images/Tarnoruckaya.jpg"
+import chugunova_portrait from "../images/chugunova.jpg"
 function Team(props){
     return(
         <section className="team" id="team">
@@ -49,7 +49,7 @@ function Team(props){
                     </div>
                 </div>
                 <div className="person">
-                    <img className="person__photo"  alt="Портрет"></img>
+                    <img className="person__photo" src={tarnoruckaya_portrait} alt="Портрет"></img>
                     <p className="person__name">Ирина Тарноруцкая</p>
                     <p className="person__profession">Юрист</p>
                     <div className="person__socials">
@@ -58,7 +58,7 @@ function Team(props){
                     </div>
                 </div>
                 <div className="person">
-                    <img className="person__photo" alt="Портрет"></img>
+                    <img className="person__photo" src={chugunova_portrait} alt="Портрет" style={{transform: "rotate(-35deg)",}}></img>
                     <p className="person__name">Елена Чугунова</p>
                     <p className="person__profession">Юрист</p>
                     <div className="person__socials">
