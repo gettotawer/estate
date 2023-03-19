@@ -2,9 +2,7 @@ import React from 'react';
 import kochurova_portrait from "../images/kochurova_portrait.jpg"
 import instagram from "../images/instagram.svg"
 import vk from "../images/vkfooter.svg"
-import telegram from "../images/telegram.svg"
 import whatsapp from "../images/whatsapp.svg"
-import callme from "../images/call-svgrepo-com.svg"
 import download from "../images/download-svgrepo-com (1).svg"
 import { Link } from 'react-router-dom';
 
@@ -18,13 +16,10 @@ function MultiLink() {
             <a href="tel:+7-921-241-15-06" className='multi-link__contact'>+7(921)-241-15-06</a>
             <a  className='multi-link__contact' href="mailto:agrnv@mail.ru" >agrnv@mail.ru</a>
             <Link to="/" className='multi-link__link'>Подробнее</Link>
-            {/* <a className='multi-link__save-button'>Сохранить в контакты <img className="multi-link__download-icon" src={download} alt="Иконка загрузки"></img></a> */}
             <div className='multi-link__socials'>
-                {/* <a href="https://api.myqrcards.com/cardLinks/6GJCP1eAmuq/card/download"><img className="multi-link__img multi-link__filter-blue " src={download} alt="Иконка звонка"></img></a> */}
-                <a href="https://instagram.com/kochurova.rielt" ><img className="multi-link__img" src={instagram} alt="Логотип инстаграма."></img></a>
-                <a href="https://vk.com/id226778591" ><img className="multi-link__img" src={vk} alt="Логотип ВК."></img></a>
-                <a href="#" ><img className="footer__img" src={telegram} alt="Логотип телеграма."></img></a>
-                <a href="https://wa.me/79212411506" ><img className="multi-link__img" src={whatsapp} alt="Логотип WhatsApp."></img></a>
+                <a href="https://instagram.com/kochurova.rielt" target="_blank" rel='noreferrer'><img className="multi-link__img" src={instagram} alt="Логотип инстаграма."></img></a>
+                <a href="https://vk.com/n.kochurova.nedv" target="_blank" rel='noreferrer'><img className="multi-link__img" src={vk} alt="Логотип ВК."></img></a>
+                <a href="https://wa.me/79212411506" target="_blank" rel='noreferrer'><img className="multi-link__img" src={whatsapp} alt="Логотип WhatsApp."></img></a>
             </div>
             <a className='multi-link__save-button' href="https://api.myqrcards.com/cardLinks/6GJCP1eAmuq/card/download">Сохранить в контакты <img className="multi-link__download-icon" src={download} alt="Иконка загрузки"></img></a>
         </div>

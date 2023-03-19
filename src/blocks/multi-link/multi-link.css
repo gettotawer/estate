@@ -38,7 +38,6 @@
     text-align: center;
     color: #2A2C30;
     margin: 0;
-    /* padding-top: 24px; */
     padding-bottom: 7px;
     text-decoration: none;
 }
@@ -104,6 +103,9 @@
     height: 50px;
 }
 .multi-link__socials {
+    margin: auto;
+    max-width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }

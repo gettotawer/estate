@@ -17,8 +17,8 @@ function Team(props){
                     <p className="person__name">Кочурова Наталья</p>
                     <p className="person__profession">Агент</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
                 <div className="person">
@@ -26,8 +26,8 @@ function Team(props){
                     <p className="person__name">Ольга Кабанова</p>
                     <p className="person__profession">Листинг-агент</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
                 <div className="person">
@@ -35,8 +35,8 @@ function Team(props){
                     <p className="person__name">Евгения Шимкович</p>
                     <p className="person__profession">Агент по работе с покупателями</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
                 <div className="person">
@@ -44,8 +44,8 @@ function Team(props){
                     <p className="person__name">Наталия Ерофеевская</p>
                     <p className="person__profession">Администратор</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
                 <div className="person">
@@ -53,8 +53,8 @@ function Team(props){
                     <p className="person__name">Ирина Тарноруцкая</p>
                     <p className="person__profession">Юрист</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
                 <div className="person">
@@ -62,8 +62,8 @@ function Team(props){
                     <p className="person__name">Елена Чугунова</p>
                     <p className="person__profession">Юрист</p>
                     <div className="person__socials">
-                        <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a>
+                        {/* <a href="#" className="person__img"><img src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="#" className="person__img"><img src={vk} alt="Логотип ВК."></img></a> */}
                     </div>
                 </div>
             </div>

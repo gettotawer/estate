@@ -1,6 +1,5 @@
 import instagram from "../images/instagram.svg"
 import vk from "../images/vkfooter.svg"
-import telegram from "../images/telegram.svg"
 import whatsapp from "../images/whatsapp.svg"
 
 function Footer(props){
@@ -11,10 +10,9 @@ function Footer(props){
                 <div className="footer__socials-container">
                     <p className="footer__paragraph">Соцсети</p>
                     <div className="footer__socials">
-                        <a href="https://instagram.com/kochurova.rielt" ><img className="footer__img" src={instagram} alt="Логотип инстаграма."></img></a>
-                        <a href="https://vk.com/id226778591" ><img className="footer__img" src={vk} alt="Логотип ВК."></img></a>
-                        <a href="#" ><img className="footer__img" src={telegram} alt="Логотип телеграма."></img></a>
-                        <a href="https://wa.me/79212411506" ><img className="footer__img" src={whatsapp} alt="Логотип WhatsApp."></img></a>
+                        <a href="https://instagram.com/kochurova.rielt" target="_blank" rel='noreferrer'><img className="footer__img" src={instagram} alt="Логотип инстаграма."></img></a>
+                        <a href="https://vk.com/n.kochurova.nedv" target="_blank" rel='noreferrer'><img className="footer__img" src={vk} alt="Логотип ВК."></img></a>
+                        <a href="https://wa.me/79212411506" target="_blank" rel='noreferrer'><img className="footer__img" src={whatsapp} alt="Логотип WhatsApp."></img></a>
                     </div>
                 </div>
                 <div className="footer__contacts-container">
